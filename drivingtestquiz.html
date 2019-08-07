@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="drivingtestquiz.css">
+	<title>NJ Driving Exam Quiz</title>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div id="branding">NJ Driving Practice Test</div>
+	</div>	
+</header>
+
+
+
+<section id="top">
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>NJ Driving Practice Test</h1>
+			<button type="button" class="start-btn">START QUIZ</button>
+		</div>
+	</div>
+
+</section>
+
+
+<section id="bottom">
+	<div class="container">
+<div class="row">
+	<div class="col-xs-12">
+	
+		<form id="quiz" name="quiz">
+			<div id="question[1]" class="question">
+				<p>1. Before turning, you must signal at least?</p>	
+			<div class="answers">
+				<input type="radio" value="1" name="answers[1]" required><label>100 feet in advance</label>
+				<input type="radio" value="0" name="answers[1]" required><label>1 block in advance</label>
+				<input type="radio" value="0" name="answers[1]" required><label>500 feet in advance</label>
+				<input type="radio" value="0" name="answers[1]" required><label>500 yards in advance</label>	
+			</div>
+			</div>
+
+
+			<div id="question[2]" class="question"><p>2. If your license is lost or stolen, to whom should you report this information immediatly?</p>	
+			<div id="answers[2]" class="answers">
+				<input type="radio" value="0" name="answers[2]" required><label>Your insurance company</label>
+				<input type="radio" value="1" name="answers[2]" required><label>The police</label>
+				<input type="radio" value="0" name="answers[2]" required><label>The registered owner of the car</label>
+				<input type="radio" value="0" name="answers[2]" required><label>None of the above</label>	
+			</div></div>
+
+
+			<div id="question[3]" class="question"><p>3. When it is legal to turn on red you must?</p>	
+			<div id="answers[3]" class="answers">
+				<input type="radio" value="0" name="answers[3]" required><label>Turn before the light turns green</label>
+				<input type="radio" value="1" name="answers[3]" required><label>Make a full stop and check traffic</label>
+				<input type="radio" value="0" name="answers[3]" required><label>Stop and wait till the light turns green</label>
+				<input type="radio" value="0" name="answers[3]" required><label>Signal for right-turn and make the turn</label>	
+			</div></div>
+
+			<div id="question[4]" class="question"><p>4.Unless otherwise posted the speed limit in a school zone is?</p>
+			<div id="answers[4]" class="answers">
+				<input type="radio" value="0" name="answers[4]" required><label>10 mph</label>
+				<input type="radio" value="0" name="answers[4]" required><label>15 mph</label>
+				<input type="radio" value="1" name="answers[4]" required><label>25 mph</label>
+				<input type="radio" value="0" name="answers[4]" required><label>35 mph</label>	
+			</div></div>	
+
+			<div id="question[5]" class="question"><p>5. When driving in fog, what lights would you need?</p>	
+			<div id="answers[5]" class="answers">
+				<input type="radio" value="0" name="answers[5]" required><label>Parking Lights</label>
+				<input type="radio" value="0" name="answers[5]" required><label>High Beams</label>
+				<input type="radio" value="1" name="answers[5]" required><label>Low Beams</label>
+				<input type="radio" value="0" name="answers[5]" required><label>Any of the above depending on visibility</label>	
+			</div></div>
+	
+			<br>
+			<button id="score-btn" type="button" class="score-btn">Click Here To Get Your Score</button>
+
+			<div id="scoreboard"></div>
+		</form>
+	</div>
+</div>
+</div>
+</section>
+
+
+
+<script src="drivingtestquiz.js"></script>
+</body>
+</html>

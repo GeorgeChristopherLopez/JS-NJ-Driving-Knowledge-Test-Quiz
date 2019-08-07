@@ -1,0 +1,61 @@
+html{
+	min-height: 100%;
+}
+
+body{
+	min-height: 100%;
+	width: 100%;
+	background: linear-gradient(to bottom,  #00A8F8 , #01CAD4);
+	margin: 0;
+	padding: 0;
+
+}
+
+.container{
+	width: 80%;
+	margin: auto;.
+
+}
+
+header{
+	background-color: #0A2D6C; 
+	min-height: 115px;
+	color: #fff;
+}
+
+#branding{
+	padding: 50px 0px 0px 0px;
+}
+
+h1{
+	text-align: center;
+}
+
+form{
+background-color: #fff;
+
+border-radius: 5px;
+min-height: 50vh;
+padding: 50px;
+}
+
+.answers input{
+	float: left;
+	}
+
+.answers label{
+	display: block;
+
+}	
+
+
+.right{
+	color: green;
+	font-weight: 800;
+	
+}
+
+.wrong{
+	color: red;
+	font-weight: 800;
+	}
